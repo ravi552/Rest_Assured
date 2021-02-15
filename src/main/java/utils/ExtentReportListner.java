@@ -17,6 +17,7 @@ public class ExtentReportListner  implements ITestListener{
 
 
 	public static void deleteDirectory(File directory) {
+		
 		if (directory.exists()) {
 			File[] files = directory.listFiles();
 			if (null != files) {
